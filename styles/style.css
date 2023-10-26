@@ -1,0 +1,130 @@
+body {
+    /*background-color: powderblue;*/
+    /* this sets the body's background color to gold*/
+    background-color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#heading{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#heading:{
+    color: blue;
+    font-size: 50vh;
+    /* animation: scale-easeInBounce 0.55s ease-in-out both; */
+}
+
+#cat{
+    animation: opacity-easeInBounce 0.55s ease-in-out both;
+}
+.clickedStyle{
+    background-color:pink ;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+@keyframes thecatanim {
+    0%{
+        transform: translateY(200px);
+        opacity: 0.5;
+    }
+    /* 50%{
+        transform: translateY(-200px);
+        opacity: 1;
+    } */
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-easeInBounce {
+	0% {
+		opacity: 1;
+	}
+
+	4% {
+		opacity: 0.98;
+	}
+
+	8% {
+		opacity: 0.99;
+	}
+
+	18% {
+		opacity: 0.94;
+	}
+
+	26% {
+		opacity: 0.98;
+	}
+
+	46% {
+		opacity: 0.75;
+	}
+
+	64% {
+		opacity: 0.98;
+	}
+
+	76% {
+		opacity: 0.44;
+	}
+
+	88% {
+		opacity: 0.11;
+	}
+
+	100% {
+		opacity: 0;
+	}
+
+}
+
+@keyframes scale-easeInBounce {
+	0% {
+		transform: scale(1);
+	}
+
+	4% {
+		transform: scale(0.98);
+	}
+
+	8% {
+		transform: scale(0.99);
+	}
+
+	18% {
+		transform: scale(0.94);
+	}
+
+	26% {
+		transform: scale(0.98);
+	}
+
+	46% {
+		transform: scale(0.75);
+	}
+
+	64% {
+		transform: scale(0.98);
+	}
+
+	76% {
+		transform: scale(0.44);
+	}
+
+	88% {
+		transform: scale(0.11);
+	}
+
+	100% {
+		transform: scale(0);
+	}
+
+}
